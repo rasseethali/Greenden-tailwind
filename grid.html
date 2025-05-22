@@ -1,0 +1,132 @@
+<style>
+    .back {
+        background-color: aquamarine;
+    }
+
+    .Header {
+        background-color: rgba(24, 96, 178, 0.695);
+        padding: 3px;
+        text-align: center;
+    }
+
+    .middle {
+        background-color: white;
+        padding: 3px;
+    }
+
+    .total {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 5px;
+        
+        text-align: center;
+    }
+
+    .one {
+        background-color: orange;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .two {
+        background-color: lightgreen;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+
+
+    }
+
+    .one-image {
+        background-color: brown;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 8px;
+        color: white;
+
+    }
+
+    .two-image {
+        background-color: rgb(193, 219, 26);
+        width: 100px;
+        height: 100px;
+        margin-bottom: 8px;
+        color: white;
+    }
+
+    .three-image {
+        background-color: rgb(194, 36, 139);
+        width: 100px;
+        height: 100px;
+        margin-bottom: 8px;
+        color: white;
+    }
+
+    .one-image p {
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .two-image p {
+        align-items: center;
+        padding: 20px;
+    }
+
+    .three-image p {
+        align-items: center;
+        padding: 20px;
+    }
+
+    .footer {
+        background-color: rgb(120, 97, 141);
+        padding: 3px;
+        text-align: center;
+        
+
+    }
+</style>
+<div class="back">
+
+    <div class="Header">Header</div>
+    <div class="middle">
+        <div class="total"> <!--middle total-->
+            <div class="one">
+                <p>Aside</p>
+            </div>
+            <div class="two">
+                <p>Article</p>
+
+                <div class="flex"> <!--flex box image-->
+                    <div class="one-image">
+                        <p>Image</p>
+                    </div>
+                    <div class="two-image">
+                        <p>Image</p>
+                    </div>
+                    <div class="three-image">
+                        <p>Image</p>
+                    </div>
+                </div> <!--flex box image-->
+
+            </div>
+
+        </div>
+
+    </div> <!--middle total-->
+</div>
+<div class="footer">Footer</div>
+
+</div>
